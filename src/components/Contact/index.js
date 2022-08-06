@@ -47,8 +47,8 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially ambitious or
-            large projects. However, if you have other request or question,
+            Feel free to reach out to me for any inquiries and questions about work. I am always interested in freelance 
+            opportunities for diffrent projects However, if you have other request or question,
             don't hesitate to contact me using below form either.
           </p>
           <div className="contact-form">

@@ -23,18 +23,19 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm very ambitious front-end developer looking for a role in
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+            I'm frontend web developer full of wonder about all web technologies.
+            Currently I have experince in working with HTML, CSS and Javascript, while working towards learning
+            new frameworks such as React.
           </p>
           <p align="LEFT">
-            I'm quietly confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+            I'm confident in working in new enviorments that require critical thinking and
+            adapting to nessecary changes. I am always willing to be a student of the craft and
+            learn what I need to make it to the next level.
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+            Outside of tech my hobbies include: any sport with a board, gardening, woodworking
+            and cinema. I am a proud father of two and love spending time with my family outdoors
+            as much as possible.
           </p>
         </div>
         </div>
