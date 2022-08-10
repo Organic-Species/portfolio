@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react'
+import Loader from 'react-loaders'
 import { Link } from 'react-router-dom'
-import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/logo-j-large.png'
+import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 
 const Home = () => {
@@ -43,7 +44,7 @@ const Home = () => {
             <span className={`${letterClass} _14`}>'m</span>
             <img
               src={LogoTitle}
-              alt="Web Developer Name"
+              alt="JavaScript Developer Name, Web Developer Name"
             />
             <AnimatedLetters
               letterClass={letterClass}
@@ -57,12 +58,14 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2>Front End Developer / Web Design / React Student</h2>
+          <h2>Front End Developer / Web Developer / Email Design</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
         </div>
       </div>
+
+      <Loader type="cube-transition" />
     </>
   )
 }

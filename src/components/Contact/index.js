@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react'
+import Loader from 'react-loaders'
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
@@ -18,12 +20,7 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs
-      .sendForm(
-        'gmail',
-        'template_YeJhZkgb',
-        form.current,
-        'your-token'
-      )
+      .sendForm('gmail', 'template_YeJhZkgb', form.current, 'your-token')
       .then(
         () => {
           alert('Message successfully sent!')
@@ -47,8 +44,8 @@ const Contact = () => {
             />
           </h1>
           <p>
-            Feel free to reach out to me for any inquiries and questions about work. I am always interested in freelance 
-            opportunities for diffrent projects However, if you have other request or question,
+            I am interested in freelance opportunities - especially ambitious or
+            large projects. However, if you have other request or question,
             don't hesitate to contact me using below form either.
           </p>
           <div className="contact-form">
@@ -88,6 +85,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <Loader type="cube-transition" />
     </>
   )
 }
